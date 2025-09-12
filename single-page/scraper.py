@@ -17,7 +17,7 @@ for product in products:
     description = product.find("p", class_="description card-text")
     reviews = product.find("p", class_="review-count float-end")
 
-    product_list.append(
+    product.list.append(
         {
             "title": titles.text.strip(),
             "price": prices.text.strip(),
@@ -29,4 +29,4 @@ for product in products:
 final_data = {"products": product_list}
 
 with open("data.json", "w") as final:
-    json.dump(final_data, final, indent=4)
+    json.dump(product_list, final, indent=4)
