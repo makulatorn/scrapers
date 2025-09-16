@@ -17,7 +17,7 @@ for product in products:
     description = product.find("p", class_="description card-text")
     reviews = product.find("p", class_="review-count float-end")
 
-    product.list.append(
+    product_list.append(
         {
             "title": titles.text.strip(),
             "price": prices.text.strip(),

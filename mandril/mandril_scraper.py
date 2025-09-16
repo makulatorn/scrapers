@@ -1,6 +1,7 @@
 import pandas as pd
 import requests
 from io import StringIO
+import plotly.express as px
 
 url = "https://da.wikipedia.org/wiki/Figurer_fra_Casper_%26_Mandrilaftalen"
 headers = {
