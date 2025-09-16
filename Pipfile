@@ -9,6 +9,8 @@ bs4 = "*"
 pandas = "*"
 plotly = "*"
 lxml = "*"
+jupyter = "*"
+notebook = "*"
 
 [dev-packages]
 
